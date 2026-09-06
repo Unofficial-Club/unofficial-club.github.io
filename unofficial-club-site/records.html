@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Records — The Unofficial Club</title>
+<meta name="description" content="Recordings of past Unofficial Club talks, for anyone who couldn't make it live.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Unofficial Club</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <ul class="nav-links" id="primary-nav">
+      <li><a href="index.html">Welcome</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="records.html" aria-current="page">Records</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:0;">
+    <div class="wrap">
+      <div class="copy">
+        <h1 style="font-size:clamp(2.2rem,5vw,3.6rem);">Records</h1>
+        <p class="lede">Missed it live? Every talk we've recorded lives here, in whatever order you want to dig through it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="border-top:none;">
+    <div class="wrap">
+      <div class="filter-row" data-records-filters aria-label="Filter recordings by topic"></div>
+      <div class="card-grid" data-records-grid>
+        <p class="empty-state">Loading the archive&hellip;</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>Run by the club, not for it &mdash; <a href="https://github.com/" target="_blank" rel="noopener">source on GitHub</a></span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
