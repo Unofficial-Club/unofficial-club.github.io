@@ -1,0 +1,9 @@
+{
+  "name": "unofficial-club-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Unofficial Club website — static site with a zero-dependency local preview server.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Quantum Field Theory Without the Trauma",
+    "presenter": "Priya Natarajan",
+    "date": "2026-02-10",
+    "duration": "19 min",
+    "tags": ["Physics", "Math"],
+    "abstract": "A gentler on-ramp to QFT than the one most grad programs give you, built around Feynman diagrams as bookkeeping rather than mysticism.",
+    "video_url": "https://www.youtube.com/"
+  },
+  {
+    "title": "The Bridge Between Circuit Design and Signal Processing",
+    "presenter": "Marcus Webb",
+    "date": "2026-01-27",
+    "duration": "14 min",
+    "tags": ["Engineering", "CS"],
+    "abstract": "Why your DSP class and your circuits class are describing the same filter from two different directions, and nobody tells you that.",
+    "video_url": "https://www.youtube.com/"
+  },
+  {
+    "title": "What Biologists Could Steal From Control Theory",
+    "presenter": "Ana Petrova",
+    "date": "2025-11-18",
+    "duration": "20 min",
+    "tags": ["Biology", "Engineering"],
+    "abstract": "Feedback loops, homeostasis, and treating a cell like a system with a set point instead of a black box.",
+    "video_url": "https://www.youtube.com/"
+  }
+]
