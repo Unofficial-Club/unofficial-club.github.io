@@ -2,13 +2,7 @@
   {
     "label": "This week",
     "hue": "blue",
-    "when": "[ DAY, MONTH DATE ] · [ TIME ]",
-    "location": "[ ROOM OR ZOOM LINK ]"
-  },
-  {
-    "label": "Next week",
-    "hue": "coral",
-    "when": "[ DAY, MONTH DATE ] · [ TIME ]",
-    "location": "[ ROOM OR ZOOM LINK ]"
+    "when": "Thu, Sept 18 · 6:00 pm",
+    "location": "Caruth Auditorium"
   }
 ]
