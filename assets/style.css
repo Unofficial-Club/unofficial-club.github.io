@@ -1,9 +1,9 @@
 /* ==========================================================================
-   The Unofficial Club — shared styles
-   Visual concept: bright, clean, modern — a friendly product-console feel
+   The Unofficial Club â€” shared styles
+   Visual concept: bright, clean, modern â€” a friendly product-console feel
    rather than an academic one. Three flat accent colors do double duty as
    the palette AND as the schedule/records tagging system: blue = pure
-   science, coral = applied/engineering, sage = a talk that crosses both —
+   science, coral = applied/engineering, sage = a talk that crosses both â€”
    which is the whole point of the club.
    ========================================================================== */
 
@@ -263,7 +263,7 @@ p { max-width: 62ch; }
   gap: clamp(1.5rem, 4vw, 3rem);
   flex-wrap: wrap;
 }
-.hero .copy { flex: 1 1 32rem; }
+.hero .copy { flex: 1 1 32rem; min-width: 0; }
 .hero .eyebrow {
   color: var(--ink-soft);
   font-size: 1.05rem;
@@ -285,8 +285,12 @@ p { max-width: 62ch; }
   align-items: stretch;
 }
 .hero .button-row .btn { justify-content: center; }
-@media (max-width: 760px) {
-  .hero .button-row { flex-direction: row; align-items: center; }
+@media (max-width: 900px) {
+  /* Below this width the hero wraps to a stacked layout (see .hero .wrap
+     flex-wrap above); keep the CTAs full-width and stacked here too,
+     rather than flipping to a side-by-side row that can run wider than
+     a phone screen and force horizontal scrolling. */
+  .hero .button-row { width: 100%; }
 }
 @keyframes rise {
   from { opacity: 0; transform: translateY(10px); }
@@ -294,6 +298,24 @@ p { max-width: 62ch; }
 }
 .hero h1 { animation: rise 480ms ease-out both; }
 .hero .lede, .hero .button-row { animation: rise 480ms ease-out 90ms both; }
+
+/* Decorative ring-and-dot mark that floats beside the "Why unofficial"
+   text on wide screens. It's purely decorative and was overlapping the
+   paragraph text on narrow viewports, so it's hidden below 900px rather
+   than squeezed in. */
+.brand-mark-side {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  width: 340px;
+  height: 340px;
+  transform: translateY(-50%);
+}
+@media (max-width: 1100px) {
+  .brand-mark-side {
+    display: none;
+  }
+}
 
 .section {
   padding: clamp(2.5rem, 6vw, 4rem) 0;
@@ -528,7 +550,7 @@ p { max-width: 62ch; }
 }
 .empty-state a { color: var(--blue); font-weight: 600; }
 
-/* ---------- resource cards (flatter — no media thumbnail) ---------- */
+/* ---------- resource cards (flatter â€” no media thumbnail) ---------- */
 
 .resource-grid {
   display: grid;
