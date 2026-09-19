@@ -6,5 +6,13 @@
     "tags": ["Physics", "Math", "Economics"],
     "abstract":"An introduction to variational calculus and Nash equilibrium, covering the Lagrangian formulation, robotic arm simulation, and the conceptual foundations of Nash equilibrium through practical examples.",
     "video_url": "https://youtu.be/WQ_i0w2xM_o"
+  },
+  {
+    "title": "Session 03",
+    "date": "2026-09-17",
+    "duration": "29 min",
+    "tags": ["Physics", "Math", "Engineering"],
+    "abstract":"Tensors briefly in the context of General Relativity, and a simplified example of how Modern Quantum Magnetometry works using NV diamonds and ODMR.",
+    "video_url": "https://youtu.be/wKMNw3npAUs"
   }
 ]
