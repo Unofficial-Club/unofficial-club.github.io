@@ -22,5 +22,13 @@
     "tags": ["Engineering", "Physics", "Math"],
     "description": "From calculus of variations to a working n-link robot arm, derivation of the Lagrangian.",
     "url": "https://github.com/Unofficial-Club/Resources/blob/baf2d41c56d16b14dcfb488f7f1beb93818fb7f8/Lagrangian_Mechanics__Prelimanaries.pdf"
+  },
+  {
+    "title": "Brief Introduction to Variational Calculus and Lagrangian Mechanics",
+    "kind": "Notes",
+    "contributor": "Burak Ozsoy",
+    "tags": ["Engineering", "Physics"],
+    "description": "How NV quantum magnetometers work, simply, using a measurment protocol called optically detectied magentic resonance (ODMR).",
+    "url": "https://github.com/Unofficial-Club/Resources/blob/b1566952fa89d96553de8babac3f4f6220a48580/NV_Notes__ODMR_%20(1).pdf"
   }
 ]
