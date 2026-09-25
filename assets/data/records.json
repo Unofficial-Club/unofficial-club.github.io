@@ -14,5 +14,13 @@
     "tags": ["Physics", "Math", "Engineering"],
     "abstract":"Tensors briefly in the context of General Relativity, and a simplified example of how Modern Quantum Magnetometry works using NV diamonds and ODMR.",
     "video_url": "https://youtu.be/wKMNw3npAUs"
+  },
+  {
+    "title": "Session 04",
+    "date": "2026-09-24",
+    "duration": "53 min",
+    "tags": ["Physics", "Economics", "CS"],
+    "abstract":"In this session, Luke has the the first lecture of a three part series on proving the Nash Equilibrium. He begins with the intuition behind the proof. Burak answers some of the everyday questions we all experience but rarely take the time to stop and think about.",
+    "video_url": "https://youtu.be/n49wscua2iU"
   }
 ]
