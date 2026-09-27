@@ -30,5 +30,13 @@
     "tags": ["Engineering", "Physics"],
     "description": "How NV quantum magnetometers work, simply, using a measurment protocol/procedure called optically detectied magentic resonance (ODMR).",
     "url": "https://github.com/Unofficial-Club/Resources/blob/b1566952fa89d96553de8babac3f4f6220a48580/NV_Notes__ODMR_%20(1).pdf"
+  },
+  {
+    "title": "Seventeen Questions",
+    "kind": "Slides",
+    "contributor": "Burak Ozsoy",
+    "tags": ["Engineering", "Physics"],
+    "description": "I gathered 17 physics and engineering related questions from friends - things we encounter every day but rarely stop to question. Now think: why does gravity pull, not push?",
+    "url": "https://github.com/Unofficial-Club/Resources/blob/060911cc1c33a61d33b0e19afcef09e3ea805bc5/Seventeen-questions.pdf"
   }
 ]
