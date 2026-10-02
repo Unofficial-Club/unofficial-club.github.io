@@ -22,5 +22,13 @@
     "tags": ["Physics", "Economics", "CS"],
     "abstract":"In this session, Luke has the the first lecture of a three part series on proving the Nash Equilibrium. He begins with the intuition behind the proof. Burak answers some of the everyday questions we all experience but rarely take the time to stop and think about.",
     "video_url": "https://youtu.be/n49wscua2iU"
+  },
+  {
+    "title": "Session 05",
+    "date": "2026-10-01",
+    "duration": "38 min",
+    "tags": ["Physics", "Math"],
+    "abstract":"Luke talks about the Dirichlet function and Lebesgue integration. He demonstrates Lebesgue integration on the Dirichlet function to show that it equals 0. Burak discusses the virial theorem and its implications for heating a hot star, and proposes a theory based on Markov processes to describe impact calculations.",
+    "video_url": "https://youtu.be/Zr2pE2H1ZY8"
   }
 ]
