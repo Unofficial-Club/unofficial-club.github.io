@@ -30,5 +30,13 @@
     "tags": ["Physics", "Math"],
     "abstract":"Luke talks about the Dirichlet function and Lebesgue integration. He demonstrates Lebesgue integration on the Dirichlet function to show that it equals 0. Burak discusses the virial theorem and its implications for heating a hot star, and proposes a theory based on Markov processes to describe impact calculations.",
     "video_url": "https://youtu.be/Zr2pE2H1ZY8"
+  },
+  {
+    "title": "Session 06",
+    "date": "2026-10-08",
+    "duration": "55 min",
+    "tags": ["Physics", "Statistics"],
+    "abstract":"In this session, Burak revisited the relationship between entropy and temperature, which he was unable to fully address in the previous session, and began exploring how simple statistical inference can reveal valuable insights in experimental settings. Craig also presented on the workflow architectures that organized groups use to structure and manage their software development processes.",
+    "video_url": "https://youtu.be/Zr2pE2H1ZY8"
   }
 ]
